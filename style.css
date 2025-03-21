@@ -1,0 +1,38 @@
+body {display: flex;
+    flex-direction: column;}
+
+.navbar {display: flex;
+}
+
+
+header {display: flex;
+}
+.right {
+    display: flex;
+    }
+
+.left {flex: 1;
+margin-left: auto;}
+
+.title {display: flex;}
+
+ul, li {list-style: none;}
+
+.content {display: flex;
+justify-content: center;}
+.block1 {display: flex;}
+
+.block2 {display: flex;
+    flex: 1;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+
+.block2 p {flex-wrap: wrap;
+align-content: center;
+max-width: 6rem;}
+
+
+.bottom {display: flex;
+align-content: center;
+justify-content: center;}
