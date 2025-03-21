@@ -1,22 +1,58 @@
+* {font-family: "Roboto";}
+
 body {display: flex;
     flex-direction: column;}
 
 .navbar {display: flex;
 }
 
+.title h1 {font-size: 48px;
+color: #F9FAF8;
+font-weight: 900;}
 
-header {display: flex;
+.header
+    { background-color: #1F2937;
+        color: #E5E7EB;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: -15px;
 }
 .right {
     display: flex;
     }
 
 .left {flex: 1;
-margin-left: auto;}
+margin-left: auto;
+}
 
-.title {display: flex;}
+.fb {padding: 10px;
+    border-radius: 5px;
+    border: 0;
+background-color: #3882F6;
+color: #F9FAF8;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 75px;
+height: 25px;}
 
+.image1 {margin-left: 25px;}
+
+.hhh {font-size: 24px;
+    color: #F9FAF8;}
+.right a, ul, li {font-size: 18px;
+color: #E5E7EB;
+text-decoration: none;}
+
+.title {display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;}
+
+.text {width: 400px;}
 ul, li {list-style: none;}
+
+h1{margin-bottom: -10px;}
 
 .content {display: flex;
 justify-content: center;}
@@ -32,7 +68,59 @@ align-items: center;}
 align-content: center;
 max-width: 6rem;}
 
+.container2 {display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: #E5E7EB;
+flex-wrap: wrap;
+align-content: center;}
+
+
+.quote {font-size: 36px;
+font-family: "Light italic";
+color: #1F2937;
+align-self: center;}
+.poc2 {align-self: flex-end;}
 
 .bottom {display: flex;
 align-content: center;
-justify-content: center;}
+justify-content: center;
+background-color: #1F2937;
+color: #F9FAF8;
+margin-bottom: -15px;
+}
+
+
+.banner
+{display: flex;
+justify-content: center;
+background-color: #3882F6;
+border-radius: 10px;
+align-items: center;
+color:#F9FAF8;
+margin-left: 200px;
+margin-right: 200px;
+margin-bottom: 50px;
+margin-top: 50px;}
+
+.bp {display: flex;
+justify-content: center;
+width: 100px;
+align-items: center;}
+
+
+h3 {margin-bottom: -15px;}
+.sec {border-radius: 10px;
+border: solid 1px white;
+background-color: #3882F6;
+color: #F9FAF8;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 80px;
+height: 30px;
+margin-left: 10rem;}
+
+.format {border-radius: 10px;
+border: solid 2px #3882F6;}
