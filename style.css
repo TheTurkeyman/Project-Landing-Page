@@ -10,11 +10,14 @@ body {display: flex;
 color: #F9FAF8;
 font-weight: 900;}
 
+
+
 .header
     { background-color: #1F2937;
         color: #E5E7EB;
         padding-left: 10px;
         padding-right: 10px;
+        padding-bottom: 15px;
         margin-top: -15px;
 }
 .right {
@@ -64,9 +67,15 @@ flex-direction: column;
 justify-content: center;
 align-items: center;}
 
-.block2 p {flex-wrap: wrap;
+.iii {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 align-content: center;
-max-width: 6rem;}
+max-width: 6rem;
+max-height: 3rem;
+margin-bottom: 40px;
+}
 
 .container2 {display: flex;
 justify-content: center;
@@ -77,11 +86,18 @@ flex-wrap: wrap;
 align-content: center;}
 
 
-.quote {font-size: 36px;
+h2 {font-size: 36px;
+color: #1F2937;
+font-weight: 900;}
+
+.gg {margin-top: -10px;}
+.box1 {flex: auto;    width: 800px;}
+.quote, .gg {font-size: 36px;
 font-family: "Light italic";
 color: #1F2937;
 align-self: center;}
-.poc2 {align-self: flex-end;}
+.poc2 {display: flex;
+justify-content: flex-end;}
 
 .bottom {display: flex;
 align-content: center;
@@ -99,16 +115,20 @@ background-color: #3882F6;
 border-radius: 10px;
 align-items: center;
 color:#F9FAF8;
-margin-left: 200px;
-margin-right: 200px;
-margin-bottom: 50px;
-margin-top: 50px;}
+width: 800px;
+margin-top: 50px;
+margin-bottom: 50px;}
+
+
 
 .bp {display: flex;
 justify-content: center;
 width: 100px;
 align-items: center;}
 
+.tttt {display: flex;
+    justify-content: center;
+}
 
 h3 {margin-bottom: -15px;}
 .sec {border-radius: 10px;
