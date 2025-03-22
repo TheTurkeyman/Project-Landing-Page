@@ -1,7 +1,8 @@
 * {font-family: "Roboto";}
 
 body {display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+margin-left: -5px;}
 
 .navbar {display: flex;
 }
@@ -15,7 +16,7 @@ font-weight: 900;}
 .header
     { background-color: #1F2937;
         color: #E5E7EB;
-        padding-left: 10px;
+        padding-left: 15px;
         padding-right: 10px;
         padding-bottom: 15px;
         margin-top: -15px;
